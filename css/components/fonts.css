@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans'), local('QuattrocentoSans'),
+    url('../../fonts/quattrocentosans.woff2') format('woff2'),
+    url('../../fonts/quattrocentosans.woff') format('woff'),
+    url('../../fonts/quattrocentosans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Italic'), local('QuattrocentoSans-Italic'),
+    url('../../fonts/quattrocentosansitalic.woff2') format('woff2'),
+    url('../../fonts/quattrocentosansitalic.woff') format('woff'),
+    url('../../fonts/quattrocentosansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Bold'), local('QuattrocentoSans-Bold'),
+    url('../../fonts/quattrocentosansbold.woff2') format('woff2'),
+    url('../../fonts/quattrocentosansbold.woff') format('woff'),
+    url('../../fonts/quattrocentosansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: local('Quattrocento Sans Bold Italic'), local('QuattrocentoSans-BoldItalic'),
+    url('../../fonts/quattrocentosansbolditalic.woff2') format('woff2'),
+    url('../../fonts/quattrocentosansbolditalic.woff') format('woff'),
+    url('../../fonts/quattrocentosansbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Light'), local('OpenSans-Light'),
+    url('../../fonts/opensanslight.woff2') format('woff2'),
+    url('../../fonts/opensanslight.woff') format('woff'),
+    url('../../fonts/opensanslight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'),
+    url('../../fonts/opensans.woff2') format('woff2'),
+    url('../../fonts/opensans.woff') format('woff'),
+    url('../../fonts/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('OpenSans-Bold'),
+    url('../../fonts/opensansbold.woff2') format('woff2'),
+    url('../../fonts/opensansbold.woff') format('woff'),
+    url('../../fonts/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

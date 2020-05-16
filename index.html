@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="my-carousel">
+        <div class="card">
+            <div class="card-img">
+                <img src="images/photo-1.jpg" alt="photo">
+                <ul class="hover-box social-networks">
+                    <li><a href="#"><i class="icons icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icons icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="card-text">
+                <h3 class="name">Gloria Bromley</h3>
+                <p class="position">CEO and Founder</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/photo-2.jpg" alt="photo">
+                <ul class="hover-box social-networks">
+                    <li><a href="#"><i class="icons icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icons icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="card-text">
+                <h3 class="name">Paul Torres</h3>
+                <p class="position">Head of Development</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/photo-3.jpg" alt="photo">
+                <ul class="hover-box social-networks">
+                    <li><a href="#"><i class="icons icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icons icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="card-text">
+                <h3 class="name">Judith Gillette</h3>
+                <p class="position">Graphic Desinger</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/photo-4.jpg" alt="photo">
+                <ul class="hover-box social-networks">
+                    <li><a href="#"><i class="icons icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icons icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="card-text">
+                <h3 class="name">Delores Reed</h3>
+                <p class="position">Client Service Director</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-img">
+                <img src="images/photo-2.jpg" alt="photo">
+                <ul class="hover-box social-networks">
+                    <li><a href="#"><i class="icons icon-twitter"></i></a></li>
+                    <li><a href="#"><i class="icons icon-facebook"></i></a></li>
+                    <li><a href="#"><i class="icons icon-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="card-text">
+                <h3 class="name">Paul Torres</h3>
+                <p class="position">Head of Development</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.my-carousel').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySeed: 1000,
+        speed: 500,
+        adaptiveHeight: true,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              dots: true,
+              arrows: false,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+              dots: true,
+              arrows: false,
+            }
+          }
+        ]
+      });
+    </script>
+</body>
+</html>

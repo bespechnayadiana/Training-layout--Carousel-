@@ -1,0 +1,181 @@
+body {
+    font: 14px "Open Sans";
+    color: #8d8f92;
+}
+
+.my-carousel {
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 1320px;
+    position: relative;
+}
+
+.my-carousel .slick-slide {
+    margin: 0 15px;
+}
+
+.my-carousel .slick-dots {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    list-style: none;
+    margin: 15px 0;
+}
+
+.my-carousel .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background-color: #d4dade;
+    font-size: 0;
+    margin: 0 7px;
+    border-radius: 50%;
+    padding: 0;
+    outline: none;
+    border: none;
+    transition: background-color .3s;
+}
+
+
+.my-carousel .slick-dots button:hover,
+.my-carousel .slick-active button {
+    background-color: #292f36;
+}
+
+.my-carousel .slick-prev,
+.my-carousel .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    padding: 0;
+    transform: translate(0, -50%);
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background-color: #d4dade;
+    border-radius: 50%;
+    transition: background-color .3s;
+}
+
+.my-carousel .slick-prev:hover,
+.my-carousel .slick-next:hover {
+    color: transparent;
+    outline: none;
+    background-color: #3a454d;
+}
+
+.my-carousel .slick-prev:before,
+.my-carousel .slick-next:before {
+    position: absolute;
+    font-size: 26px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    height: 9px;
+    transform: translate(-50%, -50%);
+}
+
+.my-carousel .slick-prev:before {
+    content: '‹';
+}
+
+.my-carousel .slick-next:before {
+    content: '›';
+}
+
+.my-carousel .slick-prev {
+    left: 10px;
+}
+
+.my-carousel .slick-next {
+    right: 10px;
+}
+
+.card-img {
+    position: relative;
+}
+
+.card-img img {
+    width: 100%;
+}
+
+.hover-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(212,218,222, .6);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.hover-box li {
+    margin: 1px;
+}
+
+.hover-box .icons {
+    position: absolute;
+    font-size: 26px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hover-box a {
+    position: relative;
+    display: block;
+    font-size: 26px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3a454d;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    transition: background-color .3s;
+}
+
+.card-text {
+    background-color: #e1e6ea;
+    padding: 20px;
+    transition: background-color .3s, color .3s;
+}
+
+.card-text .name {
+    font: 16px "Quattrocento Sans";
+    text-transform: uppercase;
+    color: #292f36;
+    transition: color .3s;
+}
+
+.card-text .position {
+    margin: 0;
+}
+
+.card a:hover {
+    background-color: #4e5a62;
+}
+
+.card:hover .hover-box {
+    opacity: 1;
+}
+
+.card:hover .card-text {
+    background-color: #3a454d;
+    color: #fff;
+}
+
+.card:hover .card-text .name {
+    color: #fff;
+}
